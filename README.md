@@ -1,0 +1,1 @@
+To run this project, open it with Godot 4.7. The inventory system is implemented using a grid layout with Resource and drag-and-drop functionality.

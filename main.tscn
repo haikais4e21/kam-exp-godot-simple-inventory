@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=1]
+
+[node name='Main' type='Node2D']
+
+[node name='Inventory' type='Control' parent='Main' position='(100, 100)']
+  [sub_resource type='StyleBoxFlat' id=1]
+    [ext_resource path='res://icon.png' type='Texture2D' id=1]
+
+  [node name='GridContainer' type='GridContainer' parent='Inventory' custom_minimum_size='(200, 200)']
+    [node name='Item1' type='Control' parent='GridContainer' position='(0, 0)']
+      [sub_resource type='StyleBoxFlat' id=2]
+        [ext_resource path='res://icon.png' type='Texture2D' id=1]
+    [node name='Item2' type='Control' parent='GridContainer' position='(1, 0)']
+      [sub_resource type='StyleBoxFlat' id=3]
+        [ext_resource path='res://icon.png' type='Texture2D' id=1]
